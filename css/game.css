@@ -29,3 +29,7 @@
     right: 0;
     bottom: 10vh;
 }
+
+.section-about-game> .container{
+    background-color: black;
+}

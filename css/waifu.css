@@ -2,7 +2,7 @@
 
 .section-intro{
     height: 100vh;
-    background-image: url(/image/waifu-bgr.jpg);
+    background-image: url(../image/waifu-bgr.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

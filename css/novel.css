@@ -2,7 +2,7 @@
 
 .section-intro{
     height: 100vh;
-    background-image: url(/image/bgr-novel.png);
+    background-image: url(../image/bgr-novel.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

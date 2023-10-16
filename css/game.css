@@ -30,6 +30,67 @@
     bottom: 10vh;
 }
 
+.section-about-game{
+    position: relative;
+    top: 10vh;
+}
 .section-about-game> .container{
-    background-color: black;
+    justify-content: space-between;
+    height: 80vh;
+}
+.section-about-game>.title{
+    height: 10vh;
+}
+.left-ag{
+    width: 35vw;
+    height: 100%;
+}
+.option-box{
+    margin: 3vh 0;
+    padding: 1vh;
+    width: 17.5vw;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.option-box h3{ margin-left: 1vw;}
+.option-box.active{
+    border-left: 3px solid red;
+    color: rgb(232, 155, 155);
+}
+.option-box:hover{
+    color: rgb(232, 155, 155);
+}
+.right-ag{
+    width: 50vw;
+    margin-top: 4vh;
+    height: fit-content;
+    overflow: hidden;
+}
+.right-ag .content{
+    width: inherit;
+    position: relative;
+    display: none;
+}
+.right-ag .content .thumb{
+    width: inherit;
+}
+.right-ag .content .text-area{
+    position: absolute;
+    width: inherit;
+    height: fit-content ;
+    z-index: 10000;
+    bottom: 0;
+    padding-bottom: 3vh;
+    padding-top: 2vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+.right-ag .content .text-area p{
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.footer{
+    position: relative;
+    top: 10vh;
 }

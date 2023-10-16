@@ -1,0 +1,31 @@
+.section-intro{
+    position: relative;
+    top: 10vh;
+    background-image: url(/image/game_bgr_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-intro>.container{
+    justify-content: space-around;
+    position: relative;
+}
+.section-intro>.container .left,.right{
+    width: 40vw;
+    height: fit-content;
+    position: absolute;
+}
+.section-intro>.container .left{
+    left: 0;
+    background-color: rgba(28, 25, 61, 0.8);
+    color: #39d7c4;
+    height: 40vh;
+    bottom: 5vh;
+}
+.section-intro>.container .left .review-item{
+    margin: 3vh 0 3vh 1vw;
+    width: 38vw;
+}
+.section-intro>.container .right{
+    right: 0;
+    bottom: 10vh;
+}

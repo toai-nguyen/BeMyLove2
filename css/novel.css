@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.section-intro{
+    height: 100vh;
+    background-image: url(/image/bgr-novel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-intro .container{
+    height: 90vh;
+    position: relative;
+    top: 10vh;
+    justify-content: space-around;
+    cursor: context-menu;
+}
+.right{
+    width: 35%;
+}
+.section-intro .container .left{
+    width: 50%;
+    position: relative;
+}
+.left .synopsis-box{
+    position: absolute;
+    bottom: 10vh;
+}
+.left .synopsis-box p{ 
+    letter-spacing: 0.5px; 
+    line-height: 24px; 
+    margin: 0 0 24px;
+}
+#awaken{ 
+    font-size: 4rem; 
+    margin: 0 0 24px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.section-content>.title{
+    font-size: 2rem;
+    margin: 2rem auto;
+}
+.section-content>.container{
+    height: 140vh;
+}
+.info{
+    width: 45%;
+}
+.item-info{
+    justify-content: space-between;
+    margin: 3rem 0;
+    cursor: context-menu;
+    width: 100%;
+    height: 12rem;
+    transition: 0.5s;
+}
+.item-info:hover{
+    height: 14rem;
+    box-shadow: 5px 5px 5px rgb(122, 99, 99);
+}
+.item-info>.title{
+    width: 70vw;
+    line-height: 24px;
+}
+.item-info>.thumb{
+    width: 30vw;
+    height: fit-content;
+    border-radius: 12px;
+    border: 1px solid white;
+    overflow: hidden;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1vw;
+}
+.static{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.dynamic{
+    font-size: 1.3rem;
+}
+.section-content .container{
+    justify-content: space-between;
+    
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+.section-intro{
+    height: 100vh;
+    background-image: url(/image/waifu-bgr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-intro .container{
+    /* background-color: white; */
+    height: 90vh;
+    position: relative;
+    top: 10vh;
+}
+.section-intro .container .left{
+    max-width: 55%;
+    /* background-color: yellow; */
+}
+/* khoi title  */
+.section-intro .container .left .title{
+    height: 45vh;
+    width: fit-content;
+    cursor: context-menu;
+    /* background-color: red; */
+}
+.section-intro .container .left .title p{
+    font-size: 2rem;
+}
+
+#enterprise{
+    font-size: calc(61.82px + 3.03vw);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+#hullnumber{
+    font-size: 1.5rem;
+    text-align: right;
+}
+/* khoi infor  */
+.list-parents{
+    height: 2rem;
+    width: max-content;
+    color: #105d6d;
+}
+.list-parents .item{
+    width: 8rem;
+    height: 100%;
+    background-color: #39d7c4;
+    border-radius: 12px 12px 0 0;
+    text-align: center;
+    margin-right: 2px;
+    padding-top: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.list-parents .item:hover{
+    background-color: #105d6d;
+    color: #39d7c4;
+}
+.item.active{
+    background-color: #105d6d;
+    color: #39d7c4;
+}
+.introduce{
+    width: fit-content;
+    height: fit-content;
+}
+.introduce .text-area{
+    background-color: #105d6d;
+    width: calc(61.82px + 33.03vw);
+    height: 20vh;
+    border-radius: 0 20px 20px 20px;
+}
+.introduce .text-area .text-content{
+    margin-left: 2rem;
+    height: 100%;
+    width: fit-content;
+    display: none;
+}
+.infor,.reason{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+.section-intro .container .right{
+    max-width: 45%;
+    overflow-y: hidden;
+    /* background-color: yellow; */
+}
+.section-intro .container .right .thumb-container .thumb{
+    max-width: 97%;
+}
+/* gallery box  */
+.section-gallery{
+    margin: 2rem auto;
+}
+.section-gallery .container{
+    background-color: black;
+    overflow: hidden;
+}
+.section-gallery .container .main-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(/image/galleryBrg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-gallery .container .main-img .thumb-main-img{
+    max-width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    /* background-color: black; */
+}
+.section-gallery .container .slide-img{
+    position: absolute;
+    width: 30%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-around;
+}
+.section-gallery .container .slide-img .title{
+    height: 5vh;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    /* background-color: #105d6d; */
+}
+.section-gallery .container .slide-img .item-img{
+    margin-left: 2rem;
+    cursor: pointer;
+    width: calc(100% - 2rem);
+    transition: 0.3s;
+}
+.item-img:hover .thumb-slide-img{
+    width: 6rem;
+    height: 6rem;
+}
+.item-img.active .thumb-slide-img{
+    width: 6rem;
+    height: 6rem;
+}
+.thumb-slide-img{
+    width: 5rem;
+    height: 5rem;
+    /* border: 1px solid #39d7c4; */
+    border-radius: 12px;
+    overflow: hidden;
+    margin-right: 1rem;
+    transition: 0.3s;
+}

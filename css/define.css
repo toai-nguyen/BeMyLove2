@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 img, div,section{ width: 100%;}
-body{
-    overflow-y: scroll;
-    overflow-x: scroll;
-}
 a{ 
     text-decoration: none; 
     color: rgb(12, 6, 52);
@@ -42,14 +38,14 @@ a{
 .display-none{
     display: none;
 }
-.height-section{ height: 675px;}
+.height-section{ height: 90vh;}
 
 .justify-content-center{ justify-content: center;}
 .align-item-center { align-items: center;}
 .hidden{ visibility: hidden;}
 .footer{
     height: 40vh;
-    width: 100vw;
+    width: 100%;
     border-top: 1px solid rgb(4, 33, 156);
 }
 .footer-container{
@@ -90,7 +86,7 @@ a{
 .navigator{
     height: 10vh;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index: 10000;
     transition: 0.6s;
 }

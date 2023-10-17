@@ -29,8 +29,8 @@ $(document).ready(function(){
         $(".thumb-main-img img").fadeIn(500).attr('src', src);
     });
 
-    let imageSrc = ["/image/Enterprise.png", "/image/Enterprise_Bon_Voyage.png",
-        "/image/EnterpriseChristmas.png", "/image/EnterpriseRoadtrip.png", "/image/EnterpriseSpring.png" ];
+    let imageSrc = ["../image/Enterprise.png", "../image/Enterprise_Bon_Voyage.png",
+        "../image/EnterpriseChristmas.png", "../image/EnterpriseRoadtrip.png", "../image/EnterpriseSpring.png" ];
         let count = 0;
     function changeImg(){
         $(".thumb-main-img img").hide();

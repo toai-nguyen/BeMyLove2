@@ -10,20 +10,21 @@
     position: relative;
 }
 .section-intro>.container .left,.right{
-    width: 40vw;
+    width: 37rem;
     height: fit-content;
     position: absolute;
 }
 .section-intro>.container .left{
     left: 0;
     background-color: rgba(28, 25, 61, 0.8);
+    /* background-color: red; */
     color: #39d7c4;
     height: 40vh;
     bottom: 5vh;
 }
 .section-intro>.container .left .review-item{
     margin: 3vh 0 3vh 1vw;
-    width: 38vw;
+    width: 36rem;
 }
 .section-intro>.container .right{
     right: 0;
@@ -46,13 +47,13 @@
     color: rgb(13, 69, 79);
 }
 .left-ag{
-    width: 35vw;
+    width: 32rem;
     height: 100%;
 }
 .option-box{
     margin: 3vh 0;
     padding: 1vh;
-    width: 17.5vw;
+    width: 16rem;
     transition: 0.2s ease;
     cursor: pointer;
 }
@@ -65,7 +66,7 @@
     color: rgb(232, 155, 155);
 }
 .right-ag{
-    width: 50vw;
+    width: 46.5rem;
     margin-top: 4vh;
     height: fit-content;
     overflow: hidden;

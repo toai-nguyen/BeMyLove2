@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 .section-intro{
-    height: 100vh;
+    height: 750px;
     background-image: url(../image/bgr-novel.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
     margin: 2rem auto;
 }
 .section-content>.container{
-    height: 140vh;
+    height: 1051px
 }
 #character{
     color: #096156;

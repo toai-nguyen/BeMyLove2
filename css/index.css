@@ -2,7 +2,7 @@
     background-image: url(../image/Intro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh !important;
+    height: 750px !important;
 }
 .intro-container{
     background-color: white;
@@ -30,8 +30,9 @@
     color: white;
 }
 .right{
-    width: 60vw;
+    width: 49.5rem;
     height: 80%;
+    /* background-color: red; */
     flex-direction: column;
     justify-content: space-around;
 }
@@ -67,7 +68,7 @@
     cursor: context-menu;
 }
 .left{
-    width: 40vw;
+    width: 35.375rem;
     height: 80%;
     position: relative;
 }

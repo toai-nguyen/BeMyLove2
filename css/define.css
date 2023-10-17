@@ -49,6 +49,33 @@ a{
     width: 100%;
     border-top: 1px solid rgb(4, 33, 156);
 }
+.footer-container{
+    
+    max-width: 1320px;
+    height: 30vh;
+    margin: 5vh auto;
+    justify-content: space-between;
+}
+.footer-item{
+    color: #247367;
+    max-width: 25rem;
+}
+.footer-item>.footer-logo img{
+    width: 20rem;
+}
+.footer-item>.footer-logo p{
+    margin-left: 1rem;
+    cursor: context-menu;
+}
+.footer-cover,.footer-follow{
+    line-height: 1.8;
+    cursor: context-menu;
+}
+.footer-item h3{ color: rgb(4, 33, 156);}
+.footer-item p a{
+    font-weight: 500;
+    color: #247367;
+}
 .nav{
     width: 100%;
     max-width: 1320px;

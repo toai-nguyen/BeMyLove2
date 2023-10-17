@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Young+Serif&display=swap');
 .section-intro{
     height: 100vh;
     background-image: url(../image/waifu-bgr.jpg);
@@ -26,11 +25,15 @@
 .section-intro .container .left .title p{
     font-size: 2rem;
 }
-
+#york{
+    font-weight: 600;
+    color: #03415c;
+}
 #enterprise{
     font-size: calc(61.82px + 3.03vw);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: #0a234e;
 }
 #hullnumber{
     font-size: 1.5rem;
@@ -56,11 +59,11 @@
     font-weight: 700;
 }
 .list-parents .item:hover{
-    background-color: #105d6d;
+    background-color: rgb(16, 93, 109, 0.8);
     color: #39d7c4;
 }
 .item.active{
-    background-color: #105d6d;
+    background-color: rgb(16, 93, 109, 0.8);
     color: #39d7c4;
 }
 .introduce{
@@ -68,10 +71,11 @@
     height: fit-content;
 }
 .introduce .text-area{
-    background-color: #105d6d;
+    background-color: rgba(16, 93, 109,0.8);
     width: calc(61.82px + 33.03vw);
     height: 20vh;
     border-radius: 0 20px 20px 20px;
+    cursor: context-menu;
 }
 .introduce .text-area .text-content{
     margin-left: 2rem;

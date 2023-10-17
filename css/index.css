@@ -64,6 +64,7 @@
     width: fit-content;
     padding-top: 3rem;
     text-transform: uppercase;
+    cursor: context-menu;
 }
 .left{
     width: 40vw;
@@ -117,5 +118,5 @@
     font-size: 8rem;
     font-style: italic;
     color: rgb(220, 184, 133);
+    cursor: context-menu;
 }
-

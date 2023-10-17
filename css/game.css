@@ -40,6 +40,10 @@
 }
 .section-about-game>.title{
     height: 10vh;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: rgb(13, 69, 79);
 }
 .left-ag{
     width: 35vw;
@@ -83,6 +87,7 @@
     padding-bottom: 3vh;
     padding-top: 2vh;
     background-color: rgba(255, 255, 255, 0.8);
+    cursor: context-menu;
     
 }
 .right-ag .content .text-area p{

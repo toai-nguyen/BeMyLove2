@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+.section-about{
+    background-image: url(../image/about_bgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.section-about .container{
+    height: 70vh;
+    position: relative;
+    top: 25vh;
+    justify-content: space-around;
+    cursor: context-menu;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.container .left,.right{
+    width: 40vw;
+    position: absolute;
+}
+.container .left{
+    left: 0;
+    height: fit-content;
+}
+.container .right{
+    right: 0;
+    height: fit-content;
+    }
+.text-area{
+    margin: 5vh auto;
+    line-height: 1.8;
+    width: 38vw;
+}
+.container .right .thumb{
+    width: 25vw;
+    margin-top: 5vh;
+}
+.section-survey{
+    background-image: url(../image/about_bgr2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-survey .title{
+    padding-top: 3vh;
+    color: #c4c9db;
+}
+#survey-form{
+    margin-top: 10vh;
+    height: 60vh;
+    width: 40vw;
+    justify-content: space-around;
+}
+.panel{
+    width: 60vw;
+    flex-direction: row-reverse;
+    font-size: 4rem;
+}
+.panel h2{
+    cursor: context-menu;
+    margin-bottom: 10vh;
+    color: #ffffff;
+}
+label, input{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+textarea{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+label{
+    font-weight: 600;
+    color: #39d7c4;
+}
+#get-name, #get-survey{
+    border-radius: 10px;
+    padding-left: 1rem;
+    width: 100%;
+    outline: none;
+}
+#survey-submit{
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    background-color: #39d7c4;
+    color: #1c233d;
+}
+#survey-submit:hover{
+    background-color: #1c233d;
+    color: #39d7c4;
+}

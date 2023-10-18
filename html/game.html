@@ -11,21 +11,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-    <section class="section section-navigator">
-        <nav class="navigator flex justify-content-center align-item-center" id="header">
-            <div class="nav">
-                <ul class="parents flex">
-                    <li class="list-item logo"><a href="index.html">
+    <header class="section section-navigator" id="header">
+        <nav class="navigator flex align-item-center">
+            <div class="logo-container flex align-item-center">
+                <div id="add">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <div class="logo flex align-item-center">
+                    <a href="index.html">
                         <img src="../image/logo.png" alt="">
-                    </a></li>
-                    <li class="list-item home"><a href="index.html">Home</a></li>
-                    <li class="list-item waifu"><a href="waifu.html">My Waifu</a></li>
-                    <li class="list-item gamer"><a href="game.html">Gamer</a></li>
-                    <li class="list-item novel"><a href="novel.html">Novel</a></li>
-                </ul>
+                    </a>
+                </div>
             </div>
+            <ul class="parents flex">
+                <li class="list-item home"><a href="index.html">Home</a></li>
+                <li class="list-item waifu"><a href="waifu.html">My Waifu</a></li>
+                <li class="list-item gamer"><a href="game.html">Gamer</a></li>
+                <li class="list-item novel"><a href="novel.html">Novel</a></li>
+            </ul>
         </nav>
-    </section>
+    </header>
 
     <section class="section section-intro height-section">
         <div class="container">
@@ -155,5 +160,7 @@
 
     <script src="../java_script/game.js"></script>
     <script src="../java_script/define.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

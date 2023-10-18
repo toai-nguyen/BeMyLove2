@@ -38,19 +38,22 @@ a{
 .display-none{
     display: none;
 }
-.height-section{ height: 90vh;}
+.height-section{ height: 675px;}
 
 .justify-content-center{ justify-content: center;}
 .align-item-center { align-items: center;}
 .hidden{ visibility: hidden;}
+
+
+/* css footer  */
 .footer{
-    height: 40vh;
+    height: 300px;
     width: 100%;
     border-top: 1px solid rgb(4, 33, 156);
 }
 .footer-container{
     max-width: 1320px;
-    height: 30vh;
+    height: calc(75px*3);
     margin: 5vh auto;
     justify-content: space-between;
 }
@@ -74,36 +77,92 @@ a{
     font-weight: 500;
     color: #247367;
 }
-.nav{
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-    height: fit-content;
-}
+/* css navigator  */
+
 .section-navigator{
     transition: 0.5s;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 75px;
+}
+.section-navigator.sticky{
+    background-color: #fff;
 }
 .navigator{
-    height: 10vh;
-    position: fixed;
-    width: 100%;
-    z-index: 10000;
-    transition: 0.6s;
+    height: 75px;
+    width: 1320px;
+    margin: 0 auto;
 }
-.navigator .nav ul li:hover a{
-    color: rgb(57, 151, 57);
+.logo-container{
+    width: fit-content;
 }
 .logo{
     height: 100%;
-    width: 9rem;
+    width: 144px;
 }
-.navigator.sticky{
-    background-color: #fff;
-}
+
 .list-item a{transition: 0.3s;}
 .parents{
-   height: 100%;
    width: 60%;
    justify-content: space-around;
    align-items: center;
+}
+.navigator ul li:hover a{
+    color: rgb(57, 151, 57);
+}
+#add{
+    font-size: 2rem;
+    display: none;
+}
+@media (max-width: 860px) {
+    .footer-item>.footer-logo img{
+        width: 30vw;
+    }
+}
+@media (max-width: 600px){
+    .section-navigator{
+        width: 100%;
+        height: 10vh;
+        background-color: white;
+    }
+    .section-navigator.show .navigator>.parents {
+        display: block;
+    }
+    .navigator{
+        width: 100vw;
+        flex-direction: column;
+        position: relative;
+    }
+    .logo-container{
+        width: 100vw;
+        height: inherit;
+    }
+    .logo{
+        height: 100%;
+    }
+    #add{ 
+        width: 35vw;
+        display: block;
+    }
+    ion-icon{ 
+        cursor: pointer;
+        margin-left: 3vw;
+    }
+    .parents{
+        flex-direction: column;
+        width: 100vw;
+        height: 90vh;
+        position: absolute;
+        top: 10vh;
+        z-index: 10000;
+        justify-content: unset;
+        align-items: unset;
+        background-color: white;
+        display: none;
+    }
+    .parents .list-item{
+        margin: 3vh 0 3vh 3vw;
+        font-size: 1.4rem;
+    }
 }

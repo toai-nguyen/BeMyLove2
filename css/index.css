@@ -115,8 +115,8 @@
     color: #1c233d;
 }
 .tag{
-    height: 40vh;
-    font-size: 8rem;
+    height: 300px;
+    font-size: 8.5vw;
     font-style: italic;
     color: rgb(220, 184, 133);
     cursor: context-menu;

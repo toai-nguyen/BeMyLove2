@@ -1,0 +1,95 @@
+@media (max-width: 600px){
+    .section-intro .container{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .section-intro .container .left{
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        top: calc(100% - 65vh);
+    }
+    .section-intro .container .left .title{
+        width: 90%;
+        height: fit-content;
+        margin: 5vh auto;
+        z-index: 100;
+    }
+    #york{
+        font-size: 1rem;
+        color: #39d7c4;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    }
+    #enterprise{
+        font-size: 3rem;
+        color: #39d7c4;
+        text-shadow: 2px 2px 2px black;
+    }
+    #hullnumber{ 
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        color: #39d7c4;
+        text-shadow: 2px 2px 2px rgb(34, 44, 92);
+    }
+    .introduce .text-area{
+        width: 90vw;
+        height: max-content;
+        font-size: .9rem;
+        padding: 1rem;
+        padding-left: unset;
+    }
+    .list-parents .item{
+        z-index: 100;
+    }
+    .section-intro .container .right{
+        width: 100%;
+        top: 0;
+        position: absolute;
+        overflow-y: unset;
+        display: flex;
+        justify-content: center;
+    }
+    .section-intro .container .right .thumb{
+        width: 75%;
+    }
+    /* css gallery  */
+    .section-gallery .container{
+        flex-direction: column;
+        position: relative;
+    }
+    .section-gallery .container .main-img .thumb-main-img{
+        max-width: 100%;
+
+    }
+    .section-gallery .container .slide-img{
+        width: 100%;
+        height: 17vh;
+        bottom: 3vh;
+        flex-direction: row;
+        overflow-x: scroll;
+        padding-left: 15vw;
+    }
+    .thumb-slide-img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .item-img.active .thumb-slide-im{
+        width: 5rem;
+        height: 5rem;
+    }
+    .item-img:hover .thumb-slide-img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .section-gallery .container .slide-img .title{
+        display: none;
+    }
+    .section-gallery .container .slide-img .item-img{
+        margin-left: 3vw;
+        width: 100%;
+    }
+    .des{
+        display: none;
+    }
+}

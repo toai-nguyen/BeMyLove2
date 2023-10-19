@@ -6,14 +6,12 @@
     background-repeat: no-repeat;
 }
 .section-intro .container{
-    /* background-color: white; */
-    height: 675px;
+    height: 90vh;
     position: relative;
     top: 10vh;
 }
 .section-intro .container .left{
-    max-width: 55%;
-    /* background-color: yellow; */
+    width: 55%;
 }
 /* khoi title  */
 .section-intro .container .left .title{
@@ -59,11 +57,11 @@
     font-weight: 700;
 }
 .list-parents .item:hover{
-    background-color: rgb(16, 93, 109, 0.8);
+    background-color: rgba(16, 93, 109, 0.8);
     color: #39d7c4;
 }
 .item.active{
-    background-color: rgb(16, 93, 109, 0.8);
+    background-color: rgba(16, 93, 109, 0.8);
     color: #39d7c4;
 }
 .introduce{
@@ -90,12 +88,8 @@
     justify-content: space-around;
 }
 .section-intro .container .right{
-    max-width: 45%;
+    width: 45%;
     overflow-y: hidden;
-    /* background-color: yellow; */
-}
-.section-intro .container .right .thumb-container .thumb{
-    max-width: 97%;
 }
 /* gallery box  */
 .section-gallery{
@@ -103,6 +97,7 @@
 }
 .section-gallery .container{
     background-color: black;
+    height: 90vh;
     overflow-y: hidden;
 }
 .section-gallery .container .main-img{
@@ -123,7 +118,7 @@
 .section-gallery .container .slide-img{
     position: absolute;
     width: 28rem;
-    height: 675px;
+    height: 90vh;
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: space-around;
 }

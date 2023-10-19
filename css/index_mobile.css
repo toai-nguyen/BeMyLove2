@@ -1,0 +1,52 @@
+@media (max-width: 600px){
+    .section-formation>.container{
+        flex-direction: column;
+    }
+    .section-formation>.container>.right{
+        flex-direction: row;
+        height: fit-content;
+        width: 100%;
+        margin-bottom: 3vh;
+        justify-content: space-around;
+    }
+    .section-formation>.container>.right .des-box{
+        width: 30vw;
+        height: 8vh;
+        font-size: 10px;
+        margin-left: unset;
+        justify-content: center;
+    }
+    .icon-info{
+        margin-right: 2vw;
+        padding: 0.4rem;
+        border-radius: 4px;
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    .left>.content{
+        height: 65vh;
+        width: 85%;
+        align-items: center;
+    }
+    .left .waifu-content .thumb{
+        max-width: 45vw;
+        margin: 0 22.5vw;
+    }
+    .left .novel-content .thumb{ 
+        max-width: 50vw;
+        margin: 0 25vw;
+    }
+    .left .game-content .thumb{ 
+        max-width: 50vw;
+        margin: 0 25vw;
+    }
+    .left .content .text-area{
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin: 5%;
+    }
+}

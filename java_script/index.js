@@ -6,7 +6,7 @@ $(document).ready(function () {
         index = $(this).index();
         $(".des-box").removeClass("active");
         $(this).addClass("active");
-        $(".content").hide(50);
+        $(".content").hide();
         $(".content").eq(index).fadeIn(500);
     });
 });

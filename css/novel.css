@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 .section-intro{
-    height: 750px;
+    height: 100vh;
     background-image: url(../image/bgr-novel.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,10 +13,7 @@
     justify-content: space-around;
     cursor: context-menu;
 }
-#awaken{
-    color: #096156;
-}
-.right{
+.section-intro .container .right{
     width: 35%;
 }
 .section-intro .container .left{
@@ -37,6 +34,7 @@
     margin: 0 0 24px;
     letter-spacing: 0.5px;
     font-weight: 700;
+    color: #096156;
 }
 
 .section-content>.title{
@@ -63,6 +61,7 @@
 .item-info:hover{
     height: 14rem;
     box-shadow: 5px 5px 5px #7a6363;
+    border-radius: 12px;
 }
 .item-info>.title{
     width: 70vw;

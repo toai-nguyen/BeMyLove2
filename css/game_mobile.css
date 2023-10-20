@@ -7,7 +7,8 @@
         width: 100%;
     }
     .section-intro>.container .left .review-item{
-        width: 100%;
+        text-align: center;
+        width: 95%;
     }
     .section-intro>.container .right{
         display: none;

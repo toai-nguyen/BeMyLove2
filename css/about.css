@@ -3,7 +3,7 @@
     background-image: url(../image/about_bgr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    height: 100vh;
 }
 .section-about .container{
     height: 70vh;
@@ -29,6 +29,9 @@
     margin: 5vh auto;
     line-height: 1.8;
     width: 35rem;
+}
+.static{
+    font-weight: 600;
 }
 .container .right .thumb{
     width: 25vw;

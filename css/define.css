@@ -108,7 +108,7 @@ a{
    justify-content: space-around;
    align-items: center;
 }
-.navigator ul li:hover a{
+.navigator ul li:hover :not(a){
     color: rgb(57, 151, 57);
 }
 #add{
